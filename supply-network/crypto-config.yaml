@@ -1,34 +1,34 @@
 OrdererOrgs:
   - Name: Orderer
-    Domain: example.com
+    Domain: project.com
     EnableNodeOUs: true
     Specs:
       - Hostname: orderer
 
 PeerOrgs:
   - Name: Producer
-    Domain: producer.example.com
+    Domain: producer.project.com
     EnableNodeOUs: true
     Template:
       Count: 1
     Users:
       Count: 1
   - Name: Manufacturer
-    Domain: manufacturer.example.com
+    Domain: manufacturer.project.com
     EnableNodeOUs: true
     Template:
       Count: 1
     Users:
       Count: 1
   - Name: Deliverer
-    Domain: deliverer.example.com
+    Domain: deliverer.project.com
     EnableNodeOUs: true
     Template:
       Count: 1
     Users:
       Count: 1
   - Name: Retailer
-    Domain: retailer.example.com
+    Domain: retailer.project.com
     EnableNodeOUs: true
     Template:
       Count: 1

@@ -1,7 +1,7 @@
 {
     "name": "hlf1.4-supply-chain",
     "version": "1.0.0",
-    "description": "A supply network example in Hyperledger Fabric 1.4",
+    "description": "A supply network project in Hyperledger Fabric 1.4",
     "homepage": "https://github.com/ialberquilla/hlf1.4-supply-chain#readme",
     "engines": {
         "node": ">=8",

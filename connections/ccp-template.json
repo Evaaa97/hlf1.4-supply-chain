@@ -15,27 +15,27 @@
         "${ORG}": {
             "mspid": "${ORGMSP}MSP",
             "peers": [
-                "peer0.${ORG}.example.com"
+                "peer0.${ORG}.project.com"
             ],
             "certificateAuthorities": [
-                "ca.${ORG}.example.com"
+                "ca.${ORG}.project.com"
             ]
         }
     },
     "peers": {
-        "peer0.${ORG}.example.com": {
+        "peer0.${ORG}.project.com": {
             "url": "grpcs://localhost:${P0PORT}",
             "tlsCACerts": {
                 "pem": "${PEERPEM}"
             },
             "grpcOptions": {
-                "ssl-target-name-override": "peer0.${ORG}.example.com",
-                "hostnameOverride": "peer0.${ORG}.example.com"
+                "ssl-target-name-override": "peer0.${ORG}.project.com",
+                "hostnameOverride": "peer0.${ORG}.project.com"
             }
         }
     },
     "certificateAuthorities": {
-        "ca.${ORG}.example.com": {
+        "ca.${ORG}.project.com": {
             "url": "https://localhost:${CAPORT}",
             "caName": "ca-${ORG}",
             "tlsCACerts": {

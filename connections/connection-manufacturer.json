@@ -15,27 +15,27 @@
         "manufacturer": {
             "mspid": "ManufacturerMSP",
             "peers": [
-                "peer0.manufacturer.example.com"
+                "peer0.manufacturer.project.com"
             ],
             "certificateAuthorities": [
-                "ca.manufacturer.example.com"
+                "ca.manufacturer.project.com"
             ]
         }
     },
     "peers": {
-        "peer0.manufacturer.example.com": {
+        "peer0.manufacturer.project.com": {
             "url": "grpcs://localhost:9051",
             "tlsCACerts": {
                 "pem": "-----BEGIN CERTIFICATE-----\nMIICdzCCAh+gAwIBAgIQFtJWhz9HCqDasWslIgXaNDAKBggqhkjOPQQDAjCBhjEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xITAfBgNVBAoTGG1hbnVmYWN0dXJlci5leGFtcGxlLmNvbTEnMCUG\nA1UEAxMedGxzY2EubWFudWZhY3R1cmVyLmV4YW1wbGUuY29tMB4XDTE5MTIwNTE1\nNTQwMFoXDTI5MTIwMjE1NTQwMFowgYYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpD\nYWxpZm9ybmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMSEwHwYDVQQKExhtYW51\nZmFjdHVyZXIuZXhhbXBsZS5jb20xJzAlBgNVBAMTHnRsc2NhLm1hbnVmYWN0dXJl\nci5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLIUp/6oltHW\n/g+s/a1mbtT4QwzYoirRn+aKwD2NsPe+EVCtwYnYFdimReHaKnI0Vy7ofiefDl9Q\ngiZSK/U7X22jbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcD\nAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQg0HW0mb8GKteA\neMNaPgrSRotDVOaeXu7XMLkGfyUEMLowCgYIKoZIzj0EAwIDRgAwQwIfGxHJJtA+\n7HSTlDvaNS8t8801yfPsYwivRHIseUU8ngIgBVRyYiv45G9lEgPRgIcgIl5pSP+7\nyVATveMTWe179M0=\n-----END CERTIFICATE-----\n"
             },
             "grpcOptions": {
-                "ssl-target-name-override": "peer0.manufacturer.example.com",
-                "hostnameOverride": "peer0.manufacturer.example.com"
+                "ssl-target-name-override": "peer0.manufacturer.project.com",
+                "hostnameOverride": "peer0.manufacturer.project.com"
             }
         }
     },
     "certificateAuthorities": {
-        "ca.manufacturer.example.com": {
+        "ca.manufacturer.project.com": {
             "url": "https://localhost:8054",
             "caName": "ca-manufacturer",
             "tlsCACerts": {

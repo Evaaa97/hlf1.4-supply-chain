@@ -15,27 +15,27 @@
         "retailer": {
             "mspid": "RetailerMSP",
             "peers": [
-                "peer0.retailer.example.com"
+                "peer0.retailer.project.com"
             ],
             "certificateAuthorities": [
-                "ca.retailer.example.com"
+                "ca.retailer.project.com"
             ]
         }
     },
     "peers": {
-        "peer0.retailer.example.com": {
+        "peer0.retailer.project.com": {
             "url": "grpcs://localhost:11051",
             "tlsCACerts": {
                 "pem": "-----BEGIN CERTIFICATE-----\nMIICZzCCAg6gAwIBAgIRAMoJbhqNpwo3ojeEYMhMhDwwCgYIKoZIzj0EAwIwfjEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xHTAbBgNVBAoTFHJldGFpbGVyLmV4YW1wbGUuY29tMSMwIQYDVQQD\nExp0bHNjYS5yZXRhaWxlci5leGFtcGxlLmNvbTAeFw0xOTEyMDUxNTU0MDBaFw0y\nOTEyMDIxNTU0MDBaMH4xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlh\nMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMR0wGwYDVQQKExRyZXRhaWxlci5leGFt\ncGxlLmNvbTEjMCEGA1UEAxMadGxzY2EucmV0YWlsZXIuZXhhbXBsZS5jb20wWTAT\nBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR02ZcGad2COoa/499ecvkaUgwwQjRpt99q\nHAhGGaziRY30MLDeKbmnKxpAIgVXjtNUz2lxhz+EnKZFnD/r/LVQo20wazAOBgNV\nHQ8BAf8EBAMCAaYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA8GA1Ud\nEwEB/wQFMAMBAf8wKQYDVR0OBCIEIEcVyYeI2OJ5oBtZnALF4Qoc4+nkdR3H2FH/\nNHLX209xMAoGCCqGSM49BAMCA0cAMEQCICBu+ZAchiwuI3XlsEOcRlEcr1c/QR41\nHGtN4hs5bZ/aAiBGd1u0OSt0RxtSHM95AjId+l8l4p94nXXcLYHQXyfkHw==\n-----END CERTIFICATE-----\n"
             },
             "grpcOptions": {
-                "ssl-target-name-override": "peer0.retailer.example.com",
-                "hostnameOverride": "peer0.retailer.example.com"
+                "ssl-target-name-override": "peer0.retailer.project.com",
+                "hostnameOverride": "peer0.retailer.project.com"
             }
         }
     },
     "certificateAuthorities": {
-        "ca.retailer.example.com": {
+        "ca.retailer.project.com": {
             "url": "https://localhost:10054",
             "caName": "ca-retailer",
             "tlsCACerts": {
